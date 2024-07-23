@@ -55,6 +55,22 @@
   width: 3rem;
 }
 
+
+.container{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.smedia{
+  margin: 1rem;
+}
+
+.smedia img {
+  height: 3rem;
+  width: 3rem;
+}
+
 @media screen and (max-width: 480px) {
   .bg {
     display: none;
