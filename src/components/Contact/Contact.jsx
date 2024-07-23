@@ -29,36 +29,6 @@ const Contact = () => {
   };
   return (
     <section id="ContactPages">
-      <div id="clients">
-        <h1 className="contactPageTitle">My Clients</h1>
-        <p className="clientsDes">
-          I have had the opportunity to work with a diverse group of companies.
-          Some of the notable companies I have worked with includes.
-        </p>
-        <div className="clientImgs">
-          <img
-            src="https://www.logodesign.net/images/home-industry/technology-logo-05.jpg"
-            alt=""
-            className="clientImg"
-          />
-          <img
-            src="https://cdn.dribbble.com/users/4528464/screenshots/16110768/media/1320979f2bf14b6126bb3cf06b16add6.jpg?resize=400x0"
-            alt=""
-            className="clientImg"
-          />
-          <img
-            src="https://marketplace.canva.com/EAFp8O-tmGc/1/0/1600w/canva-black-%26-blue-monoline-technology-logo-l5lxDlj_SZQ.jpg"
-            alt=""
-            className="clientImg"
-          />
-          <img
-            src="https://marketplace.canva.com/EAE6c9_c0ks/1/0/1600w/canva-blue-modern-circle-electric-technology-logo-Ru98XYj5LWw.jpg"
-            alt=""
-            className="clientImg"
-          />
-        </div>
-      </div>
-
       <div id="ContactPage">
         <h1 className="ContactTitle">Contact Me</h1>
         <span className="ContactDes">

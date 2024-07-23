@@ -1,7 +1,6 @@
 #works {
   margin: 0 auto;
   min-height: calc(100vh-4rem);
-
   width: 100vw;
   max-width: 60rem;
   display: flex;
@@ -24,25 +23,24 @@
 }
 
 .worksImges {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100vw;
-  max-width: 65rem;
+  display: column;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
 }
 .worksImg {
-  object-fit: cover;
-  width: 20rem;
-  height: 25rem;
-  margin: 0.5rem;
+  object-fit: fill;
+  width: 25rem;
+  height: 27rem;
+  margin: 0.7rem;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s;
 }
 .worksImg:hover {
-  transform: scale(0.97);
-  transition: 0.5s ease-out;
+  transform: scale(1.03);
+  border: 2px solid #6d6c86;
+  border-radius: 12px;
+  transition: 0.3s;
 }
 
 .worksBtn {
@@ -52,11 +50,4 @@
   background-color: white;
   border-radius: 2rem;
   font-size: 1rem;
-}
-
-@media screen and (max-width: 585px) {
-  .worksImg {
-    position: relative;
-    height: 48vw;
-  }
 }
