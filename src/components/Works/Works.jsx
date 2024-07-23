@@ -17,6 +17,22 @@ const Works = () => {
         experience to help businesses achieve their goals and create online
         presense".{" "}
       </span>
+      <div className="worksImges">
+        <a href="https://youtube-clone-sunny.netlify.app">
+          <img src={youtube} alt="" className="worksImg" />
+        </a>
+        <img src={chatGpt} alt="" className="worksImg" />
+        <a href="https://gemini-clone-sunny.netlify.app">
+          <img src={Gemini} alt="" className="worksImg" />
+        </a>
+        <a href="https://portfolio-demo-sunny.netlify.app">
+          {" "}
+          <img src={portfolio} alt="" className="worksImg" />
+        </a>
+
+        <img src={port5} alt="" className="worksImg" />
+        <img src={port6} alt="" className="worksImg" />
+      </div>
 
       <button className="worksBtn">See more</button>
     </section>
